@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Sample Angular Project';
+  title2 = 'Title 2 .....';
+  //development code can go into this block
 }
