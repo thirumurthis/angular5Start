@@ -1,0 +1,12 @@
+install node.js for npm
+install npm install -g @angular/cli
+Basic command to see if the angular cli is installed or not.
+>ng -v 
+
+Below command will start the new project 
+> ng new <project-name> 
+   -- necessary folder structure will be included by the angular CLI
+   app.component.ts -> created by the cli
+   app.module.ts-> created by the cli
+   index.html -> the component selector name is marked as html tag.
+   app.compnent.html -> can be used to provide more component.
