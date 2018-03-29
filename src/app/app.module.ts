@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
+import { LoginComponent } from './login/login.component';
 
 //using the ng generate component <component name> from the angular cli will include this
 //automatically
@@ -13,12 +14,13 @@ import { HelloComponent } from './hello/hello.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent
+    HelloComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent,HelloComponent]
+  bootstrap: [AppComponent,HelloComponent,LoginComponent]
 })
 export class AppModule { }

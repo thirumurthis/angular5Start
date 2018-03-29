@@ -14,4 +14,10 @@ export class HelloComponent implements OnInit {
   ngOnInit() {
   }
 
+  variable1 : string;
+
+  onChangeofElement(){
+    this.variable1 = "Yeah the event is called."
+  }
+
 }
